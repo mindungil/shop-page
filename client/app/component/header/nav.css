@@ -1,20 +1,27 @@
 .nav {
     display: flex;
+    width: 100vw;
     justify-content: space-between;
     align-items: center;
     color: black;
-    background-color: white;
+    background-color: transparent;
+    position: absolute;
+    z-index: 100;
 }
 
 .nav-logo {
     padding-left: 0;
-    margin: 1vh;
+    margin: 1vh 1vh;
     font-size: large;
+    justify-content: space-between;
 }
 
 .nav-content {
     list-style: none;
+    justify-content: space-between;
+    align-items: center;
     display: flex;
+    margin: 1vh 1vh;
     padding-left: 0;
 }
 
